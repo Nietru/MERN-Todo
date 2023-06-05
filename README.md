@@ -10,3 +10,4 @@
 6. create server.js file in api dir
 7. (inside api dir) CLI: npm i -D nodemon
 8. edit start script inside api/package.json
+9. after adding mongoDB connection and listening to port in server.js, CLI: npm start (still inside /api dir)
