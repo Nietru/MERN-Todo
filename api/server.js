@@ -17,6 +17,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log("Connected to MongoDB!"))
-  .catch((err) => console.log(err));
+  .catch(console.error);
 // listen on port 3001 with a callback function that tells us it's running
 app.listen(3001, () => console.log("The server is running on port 3001"));
